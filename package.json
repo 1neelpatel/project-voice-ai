@@ -4,9 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": { "start": "node server.js" },
-  "dependencies": { "express": "^4.19.2" }
-}
-"dependencies": {
+  "dependencies": {
   "express": "^4.19.2",
   "openai": "^4.0.0"
 }
