@@ -5,21 +5,23 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Project Voice AI</title>
     <style>
-      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; margin: 24px; max-width: 720px; }
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; margin: 24px; max-width: 780px; }
       input, button { padding: 10px; font-size: 16px; }
-      #log { white-space: pre-wrap; border: 1px solid #ddd; padding: 12px; border-radius: 10px; margin-top: 12px; min-height: 180px; }
+      #log { white-space: pre-wrap; border: 1px solid #ddd; padding: 12px; border-radius: 10px; margin-top: 12px; min-height: 220px; }
       .row { display:flex; gap:10px; margin-top: 10px; }
       .row input { flex: 1; }
+      .small { color:#666; font-size: 13px; margin-top: 8px; }
     </style>
   </head>
   <body>
     <h1>Project Voice AI</h1>
-    <p>Type a message below.</p>
 
     <div class="row">
       <input id="msg" placeholder="Type a message…" />
       <button id="send">Send</button>
     </div>
+
+    <div class="small">If the AI key is set correctly, you’ll see a real response below.</div>
 
     <div id="log"></div>
 
